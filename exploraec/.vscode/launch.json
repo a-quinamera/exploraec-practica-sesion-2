@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Dart - ejercicios Sesion 2",
+            "type": "dart",
+            "request": "launch",
+            "debuggerType": "dart",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/lib/playground/dart_basics.dart",
+            "console": "debugConsole"
+        },
+        {
+            "name": "ContadorDemo - Sesion 2",
+            "type": "dart",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/lib/playground/contador_demo_main.dart",
+            "deviceId": "edge",
+            "flutterMode": "debug",
+            "toolArgs": [
+                "--web-port",
+                "8182"
+            ]
+        },
+        {
+            "name": "ExploraEC - Sesion 2",
+            "type": "dart",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/lib/main.dart",
+            "deviceId": "edge",
+            "flutterMode": "debug",
+            "toolArgs": [
+                "--web-port",
+                "1718"
+            ]
+        }
+    ]
+}
